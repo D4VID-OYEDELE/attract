@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+html body header.header{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 9%;
+    z-index: 2;
+    background-color: #00f7ff;
+}
+
+img.logo{
+    width: 50px;
+}
+
+header.header nav.navbar div#close{
+    display: none;
+    position: absolute;
+    top: 3.5rem;
+    right: 2rem;
+    cursor: pointer;
+    font-size: 3rem;
+    color: white;
+}
+
+header.header nav.navbar a{
+    font-size: 3rem;
+    margin-right: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+body header.header div#menu{
+    display: none;
+    cursor: pointer;
+    color: white;
+    font-size: 3rem;
+}
+
+header.header nav.navbar a:hover{
+    color: blue;
+}
+
+html body section.home{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #00f7ff;
+    padding: 0 2rem;
+}
+
+body section.home div.content{
+    flex: 1 1 40rem;
+    padding-top: 6.5rem;
+}
+
+section.home div.content h1.title{
+    color: purple;
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+div.content h1.title span{
+    text-transform: uppercase;
+    color: purple;
+}
+
+section.home div.content p.desc{
+    color: violet;
+    font-size: 2rem;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+section.home div.content a.btn{
+    background-color: powderblue;
+    color: purple;
+    margin-top: 1rem;
+    font-size: 2rem;
+    display: inline-block;
+    padding: 0.9rem 3rem;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+body section.home div.image{
+    flex: 1 1 40rem;
+}
+
+section.home div.image img{
+    width: 100%;
+}
+
+
+
+
+
+
